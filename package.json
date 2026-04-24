@@ -1,0 +1,17 @@
+{
+  "name": "reiseappen-ultimate",
+  "version": "2.0.0",
+  "description": "Norsk reiseplanlegger med innlogging, ruter, hotell og kart",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "sqlite3": "^5.1.6",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
